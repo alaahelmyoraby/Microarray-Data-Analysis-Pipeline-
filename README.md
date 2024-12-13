@@ -31,7 +31,7 @@ BiocManager::install("package_name")
 ```R
 library(affy)            # For processing Affymetrix data
 library(dplyr)           # For data manipulation
-library("tidyr")         # Data tidying
+library(tidyr)         # Data tidying
 library(ggplot2)         # For data visualization
 library(limma)           # For linear modeling and differential expression
 library(affyPLM)         # For probe-level modeling
@@ -130,7 +130,3 @@ write.csv(degs_metastaic, "DEGs_metastatic_vs_control.csv", row.names=FALSE)
 ## Notes
 - Ensure the CEL files and metadata file are correctly placed in the specified directory.
 - Adjust group levels and contrasts based on your experimental design.
-- Use `sessionInfo()` to document your session environment for reproducibility.
-
----
-This pipeline serves as a robust starting point for microarray data analysis. Feel free to adapt it based on your specific research needs.
