@@ -7,7 +7,7 @@ This document outlines the steps for processing and analyzing microarray data us
 
 This analysis uses the GEO dataset GSE62817.
 
-**Important:**  
+## Important:
 You will need to create a separate metadata file (`metadata.csv`) for this dataset, which should contain the sample information such as sample IDs, condition (Metastatic, Non-metastatic, Normal), and replicate number.
 
 ## Requirements
